@@ -1,0 +1,32 @@
+Director de clase  pública {
+	public  static  void  main ( String [] args ) {
+		sistema _ fuera _ println ( "cls" );
+		sistema _ fuera _ println ( "CalculadoraInt" );
+		directora _ motor (( x , y ) -> x + y );
+		directora _ motor (( x , y ) -> x * y );
+		directora _ motor (( x , y ) -> x / y );
+		directora _ motor (( x , y ) -> x - y );
+		directora _ motor (( x , y ) -> x % y );
+
+		sistema _ fuera _ println ( "\nCalculadoraLarga" );
+		directora _ motor (( x , y ) -> x + y );
+		directora _ motor (( x , y ) -> x * y );
+		directora _ motor (( x , y ) -> x / y );
+		directora _ motor (( x , y ) -> x - y );
+		directora _ motor (( x , y ) -> x % y );
+
+	}
+
+	//Sobrecara de Métodos
+	 motor vacío estático  público ( CalculadoraInt cal ){  
+		int  x = 2 , y = 4 ;
+		 resultado int = cal . calcular ( x , y );
+		sistema _ fuera _ println ( "resultado = " + resultado );
+	}
+
+	 motor vacío estático  público ( CalculadoraLong cal ){  
+		largo  x = 2 , y = 4 ;
+		 resultado largo = cal . calcular ( x , y );
+		sistema _ fuera _ println ( "resultado = " + resultado );
+	}
+}
