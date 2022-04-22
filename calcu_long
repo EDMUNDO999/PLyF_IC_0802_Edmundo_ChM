@@ -1,0 +1,7 @@
+/*
+	Interfaz Funcional
+*/
+
+ interfaz  pública CalculadoraLong {
+	 cálculo largo  público ( largo x , largo y );  
+}
