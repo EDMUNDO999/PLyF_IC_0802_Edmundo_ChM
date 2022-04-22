@@ -1,0 +1,16 @@
+prueba lambda de clase  pública {
+	public  static  void  main ( String [] args ) {
+		
+		//Expresión lambda ==> representa un objetivo de una interfaz funcional
+		FunctionTest  ft = () -> Sistema . fuera _ println ( "Hola Mundo" ); // Implementacion del metodo abstracto "saludar()"
+																  //de la interfaz funcional.
+
+		//ft.saludar();
+
+		LambdaTest  objeto = new  LambdaTest ();
+		objeto _ miMetodo ( ft );
+	}
+	public  void  miMetodo ( parámetro FunctionTest  ){
+		parametro _ saludar ();
+	}
+}	
